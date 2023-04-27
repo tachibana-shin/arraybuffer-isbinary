@@ -1,6 +1,6 @@
 {
   "name": "arraybuffer-isbinary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detects if a file is binary in all platform. Similar to Perl's -B",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
