@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "project": "./tsconfig.json" },
+  "env": { "es6": true },
+  "ignorePatterns": ["node_modules", "build", "coverage"],
+  "plugins": ["import", "eslint-comments", "functional"],
+  "extends": ["@tachibana-shin/eslint-config"],
+  "globals": { "BigInt": true, "console": true, "WebAssembly": true },
+  "rules": {
+    "functional/immutable-data": "off",
+    "@typescript-eslint/space-before-blocks": "off"
+  }
+}
