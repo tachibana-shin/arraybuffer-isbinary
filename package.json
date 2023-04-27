@@ -26,7 +26,8 @@
     "test": "vitest run",
     "typing": "tsc --noEmit",
     "ci": "pnpm format && pnpm lint --fix && pnpm typing",
-    "release": "bumpp package.json --commit --tag --push"
+    "release": "bumpp package.json --commit --tag --push",
+    "prepublish": "pnpm typing && pnpm build"
   },
   "engines": {
     "node": ">=10"
